@@ -19,7 +19,7 @@ public:
 		strcpy(arr, "error value is : ");
 		strcat(arr, exception::what());
 		  
-	return arr;
+	    return arr;
 
 	}
 
@@ -56,9 +56,13 @@ int main()
 		cout << e.what();
 	}
 
-	//commit
+	
 
-	// error value is: He
+
+
+
+
+
 
 	return 0;
 }
