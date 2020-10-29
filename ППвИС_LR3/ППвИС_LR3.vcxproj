@@ -142,6 +142,7 @@
     <ClCompile Include="CAccount.cpp" />
     <ClCompile Include="CBankServer.cpp" />
     <ClCompile Include="CCashMachine.cpp" />
+    <ClCompile Include="CWindow.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="СBankСard.cpp" />
   </ItemGroup>
@@ -149,6 +150,7 @@
     <ClInclude Include="CAccount.h" />
     <ClInclude Include="CBankServer.h" />
     <ClInclude Include="CCashMachine.h" />
+    <ClInclude Include="CWindow.h" />
     <ClInclude Include="СBankСard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
