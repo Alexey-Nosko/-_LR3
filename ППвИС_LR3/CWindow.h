@@ -3,7 +3,7 @@ class CWindow
 {
 public:
 
-	virtual void f1() = 0;
+	virtual void show() = 0;
 
 };
 

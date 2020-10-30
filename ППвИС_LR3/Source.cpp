@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
+#include"CWindow1.h"
 
 using namespace std;
 
@@ -39,7 +40,7 @@ public:
 
 int main() 
 {
-	exception e ("Error in size value");
+	/*exception e ("Error in size value");
 
 	try {
 		string s;
@@ -54,13 +55,14 @@ int main()
 	}
 	catch (const MyError& e) {
 		cout << e.what();
-	}
+	}*/
 
 	
 
 
-
-
+	CWindow1 k;
+	cout<<k;
+	cin >> k;
 
 
 
