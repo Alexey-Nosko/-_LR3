@@ -142,8 +142,10 @@
     <ClCompile Include="CAccount.cpp" />
     <ClCompile Include="CBankServer.cpp" />
     <ClCompile Include="CCashMachine.cpp" />
+    <ClCompile Include="CNotEnoughMoneyExeption.cpp" />
     <ClCompile Include="CWindow.cpp" />
-    <ClCompile Include="CWindow1.cpp" />
+    <ClCompile Include="CWindowPin.cpp" />
+    <ClCompile Include="CWindow2.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="СBankСard.cpp" />
   </ItemGroup>
@@ -151,8 +153,10 @@
     <ClInclude Include="CAccount.h" />
     <ClInclude Include="CBankServer.h" />
     <ClInclude Include="CCashMachine.h" />
+    <ClInclude Include="CNotEnoughMoneyExeption.h" />
     <ClInclude Include="CWindow.h" />
-    <ClInclude Include="CWindow1.h" />
+    <ClInclude Include="CWindowPin.h" />
+    <ClInclude Include="CWindow2.h" />
     <ClInclude Include="СBankСard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

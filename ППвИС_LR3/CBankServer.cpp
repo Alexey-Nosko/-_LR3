@@ -33,15 +33,9 @@ void CBankServer::fillAccountList()
 		accountList.push_back(b);
 		
 	}
-
-	CAccount b(25, 56.20);
-	accountList.push_back(b);
-
-
-
 }
 
-CAccount CBankServer::accountSearch(int accountNumber)
+CAccount* CBankServer::accountSearch(int accountNumber)
 {
 	vector <CAccount> ::iterator it;
 	for (it = accountList.begin(); it <= accountList.end(); it++) {
@@ -51,5 +45,5 @@ CAccount CBankServer::accountSearch(int accountNumber)
 		}
 	}	
 
-	return *it;
+	return &*it;
 }

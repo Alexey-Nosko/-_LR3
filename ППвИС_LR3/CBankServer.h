@@ -9,7 +9,7 @@ private:
 	vector<CAccount> accountList;
 public:
 	void fillAccountList();
-	CAccount accountSearch(int accountNumber);
+	CAccount* accountSearch(int accountNumber);
 
 };
 

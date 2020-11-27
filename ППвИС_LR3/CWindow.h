@@ -1,9 +1,10 @@
 #pragma once
+#include"CCashMachine.h"
 class CWindow
 {
 public:
 
-	virtual void show() = 0;
+	virtual CWindow* show(CCashMachine* cashMachine) = 0;
 
 };
 

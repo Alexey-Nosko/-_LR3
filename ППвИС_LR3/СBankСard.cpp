@@ -1,6 +1,6 @@
 #include "ÑBankÑard.h"
 
-ÑBankÑard::ÑBankÑard(int accountNumber, int cardNumber, string userName, int pin)
+CBankCard::CBankCard(int accountNumber, int cardNumber, string userName, int pin)
 {
 	this->accountNumber = accountNumber;
 	this->cardNumber = cardNumber;
@@ -8,22 +8,22 @@
 	this->pin = pin;
 }
 
-int ÑBankÑard::getAccountNumber()
+int CBankCard::getAccountNumber()
 {
 	return accountNumber;
 }
 
-int ÑBankÑard::getCardNumber()
+int CBankCard::getCardNumber()
 {
 	return cardNumber;
 }
 
-string ÑBankÑard::getUserName()
+string CBankCard::getUserName()
 {
 	return userName;
 }
 
-int ÑBankÑard::getPin()
+int CBankCard::getPin()
 {
 	return pin;
 }

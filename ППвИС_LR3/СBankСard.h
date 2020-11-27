@@ -2,7 +2,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class ÑBankÑard
+class CBankCard
 {
 private:
 	int accountNumber;
@@ -10,12 +10,12 @@ private:
 	string userName;
 	int pin;
 public:
-	ÑBankÑard()
+	CBankCard()
 	{
 
 	}
 
-	ÑBankÑard(int accountNumber, int cardNumber, string userName, int pin);
+	CBankCard(int accountNumber, int cardNumber, string userName, int pin);
 
 	int getAccountNumber();
 	int getCardNumber();

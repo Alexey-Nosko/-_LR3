@@ -13,5 +13,7 @@ public:
 
 	CAccount(int accountNumber, double amountMoney);
 	int getAccountNumber();
+	double getAmountMoney();
+	void withdraw(double amount);
 };
 
